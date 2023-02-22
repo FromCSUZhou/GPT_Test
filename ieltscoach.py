@@ -1,5 +1,5 @@
-import openai
 import streamlit as st
+import openai
 import random
 
 # Step 1: Obtain OpenAI API key
