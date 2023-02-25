@@ -6,7 +6,6 @@ import openai
 
 api_keys = st.secrets["API_KEYS"]
 openai.api_key = api_keys[random.randint(0, 4)]
-# api_keys = "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"
 # openAI code
 # init_prompt = "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n \
 # Human: Hello, who are you?\n \
