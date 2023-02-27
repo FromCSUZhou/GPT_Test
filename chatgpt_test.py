@@ -6,13 +6,7 @@ import openai
 
 import sidebarInit
 
-# api_keys = st.secrets["API_KEYS"]
-api_keys = [
-    "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",
-    "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",
-    "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",
-    "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",
-    "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"]
+api_keys = st.secrets["API_KEYS"]
 openai.api_key = api_keys[random.randint(0, 4)]
 # openAI code
 # init_prompt = "Next you will become my AI assistant, and the conversation between me and you will take place in the form below. Here's an example. \
