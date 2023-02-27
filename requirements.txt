@@ -1,3 +1,4 @@
-openai
-streamlit
+openai~=0.26.5
+streamlit~=1.18.1
 streamlit-chat
+watchdog~=2.1.6

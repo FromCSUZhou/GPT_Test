@@ -169,3 +169,53 @@ def sidebarInit(language):
                         "你现在是一个 Regex 专家，请帮我写一个 Regex ，它能够把`需求`")
                     st.write(
                         "例如：你现在是一个 Regex 专家，请帮我写一个 Regex ，它能够把输入一个字串，把这个字串中的所有数字都取出。")
+        elif add_selectbox == "知识学习":
+            with st.sidebar:
+                with st.expander("**概念解说**"):
+                    st.write(
+                        "详细的说明`填入想了解的知识`")
+                    st.write(
+                        "例如：详细的说明如何制造一台电脑")
+                with st.expander("**简易教学**"):
+                    st.write(
+                        "你扮演`科目老师`的角色， 我需要理解`理论`。请用`方式`方式描述。")
+                    st.write(
+                        "例如：你扮演数学老师的角色， 我需要理解一元二次方程式。请用浅显易懂方式描述。")
+                with st.expander("**深度教学**"):
+                    st.write(
+                        "你是一个`SEO 专家`，你要教我深度的`SEO 知识`")
+                    st.write(
+                        "例如：你是一个 SEO 专家，你要教我深度的 SEO 知识。")
+                with st.expander("**教学与测验**"):
+                    st.write(
+                        "教我`二次方程式`，最后给我一个测验")
+                    st.write(
+                        "例如：教我 一元二次方程式，最后给我一个测验")
+        elif add_selectbox == "英语学习":
+            with st.sidebar:
+                with st.expander("**背单字法宝**"):
+                    st.write(
+                        "用`中文/英文`解释以下英文单字：`填入一个或多个单字`。请用表格的方式呈现，并且表格内须包含单字、词性、解释与例句。")
+                    st.write(
+                        "例如：用中文解释以下英文单字：apple, orange, doctor, car, run。请用表格的方式呈现，并且表格内须包含单字、词性、解释与例句。")
+                with st.expander("**英语单字学习**"):
+                    st.write(
+                        "解释英文单字`英文单字`，并且给我`数字`个常用句子。")
+                    st.write(
+                        "例如：解释英文单字 divest，并且给我 5 个常用句子")
+                with st.expander("**英语对话**"):
+                    st.write(
+                        "Can we have a conversation about`话题`?")
+                    st.write(
+                        "例如：Can we have a conversation about machine learning?")
+                with st.expander("**校阅英文文法**"):
+                    st.write(
+                        "Can you check the spelling and grammar in the following text?`附上英文文字`")
+                with st.expander("**英文作文修改与解释**"):
+                    st.write(
+                        "校阅以下英文文章，并用表格的方式呈现，要有三个栏位，分别是原文、修正后的版本，以及用中文详解为什么要这样修改：`附上英文文章`")
+                with st.expander("**纠正文法和拼字错误**"):
+                    st.write(
+                        "Please correct my grammar and spelling mistakes in the text above: `附上英文文字`")
+                    st.write(
+                        "例如：Please correct my grammar and spelling mistakes in the text above: I love eat fooded")
